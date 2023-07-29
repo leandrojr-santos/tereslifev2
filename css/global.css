@@ -1,0 +1,13 @@
+ul, li, a, p, h1, h2, h3, h4{
+  padding: 0px;
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #00200B;
+}
+
+ul, li{
+  list-style: none;
+}

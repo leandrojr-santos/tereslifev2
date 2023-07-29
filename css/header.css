@@ -1,0 +1,54 @@
+.header-bg {
+  background-color: #fafffb;
+}
+
+.header {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.header-menu {
+  display: flex;
+  gap: 20px;
+}
+
+#logo {
+  cursor: pointer;
+}
+
+.header-menu a {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: #00200b;
+}
+
+.header-menu a:hover {
+  color: #064e1e;
+}
+
+/* menu hamburguer */
+.menu-toggle{
+  display: none;
+}
+
+.menu-toggle.ativo {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.menu-toggle-line {
+  height: 2px;
+  background-color: #00200b;
+  border-radius: 1.5px;
+}
+
+.menu-toggle:hover .menu-toggle-line {
+  background-color: #064e1e;
+}
